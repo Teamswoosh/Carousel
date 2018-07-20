@@ -1,1 +1,10 @@
-module.exports = { "extends": "airbnb-base" };
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "plugins": [
+        "react",
+        "jsx-ally",
+        "import"
+    ]
+}
+     
